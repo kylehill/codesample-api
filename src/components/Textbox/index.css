@@ -1,0 +1,21 @@
+.textbox {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.tb-text {
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 4px;
+  border: solid 2px #ccc;
+  margin-right: 8px;
+}
+
+.tb-button {
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 4px;
+  border: solid 2px #ccc;
+  cursor: pointer;
+}

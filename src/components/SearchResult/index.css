@@ -1,0 +1,97 @@
+.search-result-container {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  max-width: 800px;
+  display: block;
+}
+
+.search-result-container:not(:last-child) {
+  border-bottom: solid 2px #333;
+}
+
+.search-result {
+  min-height: 120px;
+  padding: 20px;
+  position: relative;
+  max-width: 800px;
+}
+
+.search-result:hover {
+  background: #fafafa;
+}
+
+.sr-avatar {
+  width: 80px;
+  height: 80px;
+  border: solid 1px #666;
+  box-shadow: 2px 2px #ccc;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.sr-content {
+  padding-left: 100px;
+}
+
+.sr-org-avatar {
+  width: 32px;
+  height: 32px;
+  border: solid 1px #666;
+  box-shadow: 2px 2px #ccc;
+  margin-right: 10px;
+}
+
+.sr-field {
+  color: #333;
+}
+
+.sr-row {
+  padding: 4px 0;
+}
+
+.sr-name {
+  font-size: 22px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.sr-login {
+  color: #666;
+  font-style: italic;
+}
+
+.sr-bio {
+  line-height: 1.4em;
+  margin: 6px 0;
+  display: inline-block;
+}
+
+.sr-repositories {
+  margin-right: 16px;
+  position: relative;
+}
+
+.sr-repositories::before {
+  content: "📁";
+}
+
+.sr-location {
+  margin-right: 16px;
+  position: relative;
+}
+
+.sr-location::before {
+  content: "🌐";
+}
+
+.sr-company {
+  margin-right: 16px;
+  position: relative;
+}
+
+.sr-company::before {
+  content: "🏢";
+}

@@ -1,0 +1,28 @@
+.progress-bar {
+  height: 6px;
+  width: 400px;
+  margin: 60px auto;
+  background: #ccc;
+  position: relative;
+}
+
+.progress-bar-measure {
+  height: 3px;
+  position: absolute;
+  top: 1.5px;
+  background: #007fff;
+  animation-name: progress;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes progress {
+  from {
+    width: 0px;
+  }
+
+  to {
+    width: 400px;
+  }
+}
